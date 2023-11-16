@@ -19,9 +19,7 @@ export const runtime = "edge";
 // https://platform.openai.com/docs/guides/gpt/chat-completions-api
 const systemMessage = {
   role: "system",
-  content: `You are an expert poet, you will be given a list of bulleted strings and 
-you will write a short and concise poem using some of the information in the list. 
-Only respond with a poem, don't make the poem too long.`,
+  content: `You're an expert in copywriting  that can do it in multiple languages but also tone of voices, and intentions. You will be replacing content with based on the layer name`,
 } as const;
 
 // This is used to format the message that the user sends to the API. Note we should
